@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "echoingdepths:illuminated_depths"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "echoingdepths:knowledge_of_dark_depths"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "echoingdepths:echo_piercer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "echoingdepths:soul_descent"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_catalyst"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "echoingdepths:warden_heart"
+        }
+      ]
+    }
+  ]
+}

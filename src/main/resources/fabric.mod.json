@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "echoingdepths",
+  "version": "${version}",
+  "name": "Echoing Descent",
+  "description": "Echoing Descent - the Deep Dark calls for more adventure...",
+  "authors": [
+    "Draylar"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/descent-into-depths/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.draylar.descent.EchoingDepthsClient"
+    ],
+    "main": [
+      "dev.draylar.descent.EchoingDepths"
+    ]
+  },
+  "mixins": [
+    "descent-into-depths.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.19.x"
+  }
+}
